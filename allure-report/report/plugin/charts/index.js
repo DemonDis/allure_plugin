@@ -2,14 +2,8 @@
 
 allure.api.addTranslation('en', {
     tab: {
-        behaviors: {
-            name: 'Charts'
-        }
-    },
-    widget: {
         charts: {
-            name: 'Features by stories',
-            showAll: 'show all'
+            name: 'Charts'
         }
     }
 });
@@ -18,12 +12,6 @@ allure.api.addTranslation('ru', {
     tab: {
         charts: {
             name: 'Графики'
-        }
-    },
-    widget: {
-        behaviors: {
-            name: 'Функциональность',
-            showAll: 'показать все'
         }
     }
 });
@@ -38,14 +26,16 @@ allure.api.addTab('charts', {
             testResultTab: testResultTab,
             tabName: 'tab.charts.name',
             baseUrl: 'charts',
-            url: 'data/charts.json'
+            // url: 'data/timeline.json'
         });
     })
 });
-
-allure.api.addWidget('widgets', 'charts', allure.components.WidgetStatusView.extend({
+allure.api.addWidget("graph", "duration-trend", eo, jt);
+allure.api.addWidget("graph", "history-trend", allure.components.WidgetStatusView.extend({
     rowTag: 'a',
-    title: 'widget.charts.name',
-    baseUrl: 'charts',
+    title: 'widget.graph.name',
+    baseUrl: 'graph',
     showLinks: true
 }));
+
+allure.api.addWidget("widgets", "summary", go); 
