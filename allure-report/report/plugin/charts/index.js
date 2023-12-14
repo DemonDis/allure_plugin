@@ -28,25 +28,24 @@ allure.api.addTranslation('ru', {
     }
 });
 
-allure.api.addTab('behaviors', {
-    title: 'tab.behaviors.name', icon: 'fa fa-list',
-    route: 'behaviors(/)(:testGroup)(/)(:testResult)(/)(:testResultTab)(/)',
+allure.api.addTab('charts', {
+    title: 'tab.charts.name', icon: 'fa fa-bug',
+    route: 'charts(/)(:testGroup)(/)(:testResult)(/)(:testResultTab)(/)',
     onEnter: (function (testGroup, testResult, testResultTab) {
         return new allure.components.TreeLayout({
             testGroup: testGroup,
             testResult: testResult,
             testResultTab: testResultTab,
-            tabName: 'tab.behaviors.name',
-            baseUrl: 'behaviors',
-            url: 'data/behaviors.json',
-            csvUrl: 'data/behaviors.csv'
+            tabName: 'tab.charts.name',
+            baseUrl: 'charts',
+            url: 'data/charts.json'
         });
     })
 });
 
-allure.api.addWidget('widgets', 'behaviors', allure.components.WidgetStatusView.extend({
+allure.api.addWidget('widgets', 'charts', allure.components.WidgetStatusView.extend({
     rowTag: 'a',
-    title: 'widget.behaviors.name',
-    baseUrl: 'behaviors',
+    title: 'widget.charts.name',
+    baseUrl: 'charts',
     showLinks: true
 }));
