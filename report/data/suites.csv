@@ -1,0 +1,96 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Oct 10 20:59:11 NOVT 2014","Fri Oct 10 20:59:16 NOVT 2014","5134","","Search tests","","my.company.ScreenshotTest","pageLoadingTest","Page loading test","
+### H3
+after this line we should collapse all of that
+
+вавыа
+#### H4
+This testsuite has tests what *always are passing*
+
+* first
+* second
+    1. subsecind
+    1. subsubsecind
+* third"
+"passed","Fri Oct 10 20:59:00 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","3","","my.company.NonAsciiTest","","my.company.NonAsciiTest","test_pass","test_pass","Этот тест проходит"
+"broken","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","3","","my.company.SimpleTest","","my.company.SimpleTest","brokenSimpleTest","brokenSimpleTest",""
+"passed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","9","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testTwo","testTwo",""
+"skipped","Fri Oct 10 21:05:53 NOVT 2014","Fri Oct 10 21:05:53 NOVT 2014","200","","my.company.AllureMigrationTest","","my.company.AllureMigrationTest","AllureOldDataTest","Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously","I hate descriptions! See the title!"
+"passed","Fri Oct 10 20:59:11 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","7180","","Search tests","","my.company.ScreenshotTest","emptyTextSearch","Empty text search","
+### H3
+after this line we should collapse all of that
+
+вавыа
+#### H4
+This testsuite has tests what *always are passing*
+
+* first
+* second
+    1. subsecind
+    1. subsubsecind
+* third"
+"passed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","352","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testOne","testOne",""
+"passed","Fri Oct 10 20:59:11 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","7573","","Search tests","","my.company.ScreenshotTest","wildcardSearch","Wildcard search test","
+### H3
+after this line we should collapse all of that
+
+вавыа
+#### H4
+This testsuite has tests what *always are passing*
+
+* first
+* second
+    1. subsecind
+    1. subsubsecind
+* third
+
+### h3 *italic* **bold**
+allure core ![https://img.shields.io/teamcity/http/teamcity.qatools.ru/s/allure_core_master_deploy.svg?style=flat](https://img.shields.io/teamcity/http/teamcity.qatools.ru/s/allure_core_master_deploy.svg?style=flat)
+[repository](https://github.com/allure-framework/allure-core)
+
+just http://yandex.ru
+
+* first
+* second
+    1. subsecind
+    1. subsubsecind
+* third"
+"passed","Fri Oct 10 20:59:11 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","7662","","Search tests","","my.company.ScreenshotTest","usualSearch","Usual search test","
+### H3
+after this line we should collapse all of that
+
+вавыа
+#### H4
+This testsuite has tests what *always are passing*
+
+* first
+* second
+    1. subsecind
+    1. subsubsecind
+* third"
+"passed","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","0","","my.company.SimpleTest","","my.company.SimpleTest","longTitleTest","Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously","I hate descriptions! See the title!"
+"skipped","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","1","","my.company.SimpleTest","","my.company.SimpleTest","my.company.SimpleTest","skippedSimpleTest",""
+"failed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","765","","my.company.ManyInfoTest","","my.company.ManyInfoTest","attachmentsTest","<script>3443</script>","Testsuite has testcases with many steps
+    and
+many lines in description
+
+Single-line description"
+"passed","Fri Oct 10 20:58:49 NOVT 2014","Fri Oct 10 20:59:09 NOVT 2014","20367","","other.PassingTest","","other.PassingTest","testPassed","testPassed",""
+"unknown","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","382","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testThree","testThree",""
+"failed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","661","","my.company.ManyInfoTest","","my.company.ManyInfoTest","longAssertionTest","Test with long assertion text","Testsuite has testcases with many steps
+    and
+many lines in description"
+"broken","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","61","","my.company.ManyInfoTest","","my.company.ManyInfoTest","lotOfStepsTest","lotOfStepsTest","Testsuite has testcases with many steps
+    and
+many lines in description
+
+I have many steps 
+
+    Parent Step 
+    Last 
+    MakeThisTestBroken"
+"failed","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","1","","my.company.SimpleTest","","my.company.SimpleTest","failedSimpleTest","failedSimpleTest",""
+"broken","Fri Oct 10 20:59:00 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","98","","my.company.NonAsciiTest","","my.company.NonAsciiTest","test_raise_cyrilling","test_raise_cyrilling (невероятный тест кодировки!)","Этот тест выкидывает исключение с русскими буквами"
+"broken","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","9","","my.company.BeforeClassFailTest","","my.company.BeforeClassFailTest","my.company.BeforeClassFailTest","BeforeClassFailTest",""
+"unknown","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","367","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testFour","testFour",""
+"passed","Fri Oct 10 20:50:39 NOVT 2014","Fri Oct 10 20:50:51 NOVT 2014","11945","","Custom Widget page","","my.company.CustomWidgetPageTest","open widget page","open widget page",""

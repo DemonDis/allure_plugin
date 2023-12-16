@@ -1,5 +1,6 @@
 const webpack = require("webpack");
 const webpackMerge = require("webpack-merge");
+const HtmlWebPackPlugin = require("html-webpack-plugin");
 const sass = require("sass");
 const utils = require("./utils.js");
 
@@ -49,5 +50,9 @@ module.exports = options =>
         ignored: /node_modules/,
       },
     },
-    plugins: [new webpack.HotModuleReplacementPlugin()],
+    plugins: [
+      new webpack.HotModuleReplacementPlugin(),
+      new HtmlWebPackPlugin({
+        template: "./index.html",
+      }),],
   });
