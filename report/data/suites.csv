@@ -1,6 +1,6 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"skipped","Fri Oct 10 21:05:53 NOVT 2014","Fri Oct 10 21:05:53 NOVT 2014","200","","my.company.AllureMigrationTest","","my.company.AllureMigrationTest","AllureOldDataTest","Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously","I hate descriptions! See the title!"
-"unknown","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","367","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testFour","testFour",""
+"broken","Fri Oct 10 20:59:00 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","98","","my.company.NonAsciiTest","","my.company.NonAsciiTest","test_raise_cyrilling","test_raise_cyrilling (невероятный тест кодировки!)","Этот тест выкидывает исключение с русскими буквами"
+"broken","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","3","","my.company.SimpleTest","","my.company.SimpleTest","brokenSimpleTest","brokenSimpleTest",""
 "passed","Fri Oct 10 20:59:11 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","7662","","Search tests","","my.company.ScreenshotTest","usualSearch","Usual search test","
 ### H3
 after this line we should collapse all of that
@@ -39,45 +39,7 @@ just http://yandex.ru
     1. subsecind
     1. subsubsecind
 * third"
-"passed","Fri Oct 10 20:58:49 NOVT 2014","Fri Oct 10 20:59:09 NOVT 2014","20367","","other.PassingTest","","other.PassingTest","testPassed","testPassed",""
-"passed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","9","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testTwo","testTwo",""
-"broken","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","61","","my.company.ManyInfoTest","","my.company.ManyInfoTest","lotOfStepsTest","lotOfStepsTest","Testsuite has testcases with many steps
-    and
-many lines in description
-
-I have many steps 
-
-    Parent Step 
-    Last 
-    MakeThisTestBroken"
-"broken","Fri Oct 10 20:59:00 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","98","","my.company.NonAsciiTest","","my.company.NonAsciiTest","test_raise_cyrilling","test_raise_cyrilling (невероятный тест кодировки!)","Этот тест выкидывает исключение с русскими буквами"
-"failed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","661","","my.company.ManyInfoTest","","my.company.ManyInfoTest","longAssertionTest","Test with long assertion text","Testsuite has testcases with many steps
-    and
-many lines in description"
-"broken","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","9","","my.company.BeforeClassFailTest","","my.company.BeforeClassFailTest","my.company.BeforeClassFailTest","BeforeClassFailTest",""
-"failed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","765","","my.company.ManyInfoTest","","my.company.ManyInfoTest","attachmentsTest","<script>3443</script>","Testsuite has testcases with many steps
-    and
-many lines in description
-
-Single-line description"
-"failed","Fri Oct 10 20:59:11 NOVT 2014","Fri Oct 10 20:59:16 NOVT 2014","5134","","Search tests","","my.company.ScreenshotTest","pageLoadingTest","Page loading test","
-### H3
-after this line we should collapse all of that
-
-вавыа
-#### H4
-This testsuite has tests what *always are passing*
-
-* first
-* second
-    1. subsecind
-    1. subsubsecind
-* third"
-"skipped","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","1","","my.company.SimpleTest","","my.company.SimpleTest","my.company.SimpleTest","skippedSimpleTest",""
-"broken","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","3","","my.company.SimpleTest","","my.company.SimpleTest","brokenSimpleTest","brokenSimpleTest",""
-"passed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","352","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testOne","testOne",""
-"passed","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","0","","my.company.SimpleTest","","my.company.SimpleTest","longTitleTest","Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously","I hate descriptions! See the title!"
-"unknown","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","382","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testThree","testThree",""
+"skipped","Fri Oct 10 21:05:53 NOVT 2014","Fri Oct 10 21:05:53 NOVT 2014","200","","my.company.AllureMigrationTest","","my.company.AllureMigrationTest","AllureOldDataTest","Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously","I hate descriptions! See the title!"
 "passed","Fri Oct 10 20:59:11 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","7180","","Search tests","","my.company.ScreenshotTest","emptyTextSearch","Empty text search","
 ### H3
 after this line we should collapse all of that
@@ -91,6 +53,44 @@ This testsuite has tests what *always are passing*
     1. subsecind
     1. subsubsecind
 * third"
-"passed","Fri Oct 10 20:59:00 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","3","","my.company.NonAsciiTest","","my.company.NonAsciiTest","test_pass","test_pass","Этот тест проходит"
-"failed","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","1","","my.company.SimpleTest","","my.company.SimpleTest","failedSimpleTest","failedSimpleTest",""
+"passed","Fri Oct 10 20:58:49 NOVT 2014","Fri Oct 10 20:59:09 NOVT 2014","20367","","other.PassingTest","","other.PassingTest","testPassed","testPassed",""
+"passed","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","0","","my.company.SimpleTest","","my.company.SimpleTest","longTitleTest","Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously","I hate descriptions! See the title!"
 "passed","Fri Oct 10 20:50:39 NOVT 2014","Fri Oct 10 20:50:51 NOVT 2014","11945","","Custom Widget page","","my.company.CustomWidgetPageTest","open widget page","open widget page",""
+"failed","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","1","","my.company.SimpleTest","","my.company.SimpleTest","failedSimpleTest","failedSimpleTest",""
+"failed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","661","","my.company.ManyInfoTest","","my.company.ManyInfoTest","longAssertionTest","Test with long assertion text","Testsuite has testcases with many steps
+    and
+many lines in description"
+"unknown","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","367","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testFour","testFour",""
+"failed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","765","","my.company.ManyInfoTest","","my.company.ManyInfoTest","attachmentsTest","<script>3443</script>","Testsuite has testcases with many steps
+    and
+many lines in description
+
+Single-line description"
+"unknown","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","382","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testThree","testThree",""
+"passed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","352","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testOne","testOne",""
+"passed","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","9","","my.company.AlwaysPassingTest","","my.company.AlwaysPassingTest","testTwo","testTwo",""
+"failed","Fri Oct 10 20:59:11 NOVT 2014","Fri Oct 10 20:59:16 NOVT 2014","5134","","Search tests","","my.company.ScreenshotTest","pageLoadingTest","Page loading test","
+### H3
+after this line we should collapse all of that
+
+вавыа
+#### H4
+This testsuite has tests what *always are passing*
+
+* first
+* second
+    1. subsecind
+    1. subsubsecind
+* third"
+"broken","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","9","","my.company.BeforeClassFailTest","","my.company.BeforeClassFailTest","my.company.BeforeClassFailTest","BeforeClassFailTest",""
+"skipped","Fri Oct 10 20:59:18 NOVT 2014","Fri Oct 10 20:59:18 NOVT 2014","1","","my.company.SimpleTest","","my.company.SimpleTest","my.company.SimpleTest","skippedSimpleTest",""
+"broken","Fri Oct 10 20:58:59 NOVT 2014","Fri Oct 10 20:58:59 NOVT 2014","61","","my.company.ManyInfoTest","","my.company.ManyInfoTest","lotOfStepsTest","lotOfStepsTest","Testsuite has testcases with many steps
+    and
+many lines in description
+
+I have many steps 
+
+    Parent Step 
+    Last 
+    MakeThisTestBroken"
+"passed","Fri Oct 10 20:59:00 NOVT 2014","Fri Oct 10 20:59:00 NOVT 2014","3","","my.company.NonAsciiTest","","my.company.NonAsciiTest","test_pass","test_pass","Этот тест проходит"

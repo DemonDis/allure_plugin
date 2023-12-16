@@ -17,8 +17,10 @@ import "./plugins/tab-category";
 import "./plugins/tab-suites";
 import "./plugins/tab-graph";
 import "./plugins/tab-timeline";
+import "./plugins/tab-il";
 
 import "./plugins/widget-status";
+import "./plugins/widget-status-il";
 import "./plugins/widget-severity";
 import "./plugins/widget-duration";
 import "./plugins/widget-duration-trend";
